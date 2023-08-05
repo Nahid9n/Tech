@@ -1,0 +1,169 @@
+
+.header{
+    background: linear-gradient(to right,rgba(0,0,0,0.6),rgba(0,0,0,0.6)) ,url("../img/Haeder.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:90vh;
+}
+.header2{
+    background: linear-gradient(to right,rgba(0,0,0,0.6),rgba(0,0,0,0.6)) ,url("../img/Haeder.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100px;
+}
+
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.margintop-200{
+    margin-top:200px;
+}
+.margintop-100{
+    margin-top:100px;
+}
+
+.bg-navyblue{
+    background-color: #1F1F2E;
+}
+.text-orange{
+    color: #FF4800 !important;
+}
+.bg-orange{
+    background-color:#FF4800 ;
+}
+.logo{
+    position: relative;
+    left: 70px;
+}
+.fs-7{
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 30px;
+}
+.fs-9{
+    font-size: 40px;
+    font-weight: bold;
+}
+.fs-8{
+    font-size: 80px;
+    font-weight: bold;
+}
+.fw-bolder{
+    font-weight: bold;
+}
+.fw-600{
+    font-weight: 600;
+}
+.fonttravel{
+    font-family: Gilroy-ExtraBold ;
+    font-size: 45px;
+    line-height: 63px;
+}
+.menu{
+    font-family: Gilroy-Bold;
+    font-size: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.amaazing{
+    color: #020513;
+    font-family: Gilroy-ExtraBold;
+    font-size: 54.306px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28000, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.card1{
+    color: #020513;
+    font-family: Gilroy-Bold;
+    font-size: 20.006px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.svg{
+    position: absolute;
+    top:1900px;
+    right: 0px;
+    left: 1500px;
+    float: end;
+}
+.rounded-corner{
+    border-radius: 100px;
+}
+.card-shadow{
+    box-shadow: 2px 2px 10px 0;
+}
+
+.swiper {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+}
+.footer1{
+    border-radius: 15px;
+    border: 1px solid #FED500;
+    background: #FED500;
+}
+
+/*carousel section Start Here*/
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev{
+    display: flex;
+}
+@media(min-width: 768px) {
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next{
+        transform: translateX(25%);
+    }
+    .carousel-inner .carousel-item-start.active,
+    .carousel-inner .carousel-item-prev{
+        transform: translateX(-25%);
+    }
+
+}
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start{
+    transform: translateX(0);
+}
+
+/*Mobile Screen*/
+@media(max-width: 767px){
+    .carousel-inner .carousel-item>div {
+        display: none;
+    }
+    .carousel-inner .carousel-item>div:first-child {
+        display: block;
+    }
+}
+
+.buttonpositioncarousel{
+    position: absolute;
+    right: 40px;
+    top: -80px;
+}
+
+/*carousel section Start Here*/
